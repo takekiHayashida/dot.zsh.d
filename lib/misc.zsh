@@ -38,6 +38,7 @@ export LESS='-R'
 # alias 設定
 alias ls="ls -CF --color"
 alias findf="find . -type f"
+alias findfg="find . -type f | xargs grep"
 
 # tmux
 alias tmux="tmux -2"
