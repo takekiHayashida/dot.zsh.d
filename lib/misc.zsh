@@ -39,6 +39,7 @@ export LESS='-R'
 alias ls="ls -CF --color"
 alias findf="find . -type f"
 alias findfg="find . -type f | xargs grep"
+alias ch="chromium-browser"
 
 # tmux
 alias tmux="tmux -2"
