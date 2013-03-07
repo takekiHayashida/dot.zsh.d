@@ -2,6 +2,11 @@
 export PATH=/usr/local/git/bin:$PATH
 export MANPATH=/usr/local/git/share/man:`manpath -q`
 export GIT_SSL_NO_VERIFY=true
+
+# git-extensions
+[[ -s ~/.git-extensions/scripts/init ]] && source ~/.git-extensions/scripts/init
+
+# aliases
 alias g="git"
 alias gc="git commit"
 alias gcm="git commit -m"
@@ -28,6 +33,11 @@ alias gri6="git rebase -i HEAD~6"
 alias gs="git status"
 alias gst="git stash"
 alias gf="git fetch"
+alias gr.="git remote"
+alias gr.a="git remote add"
+alias gr.s="git remote show"
+alias gr.rb="git remove-remote-branch"
+alias gr.p="git remote prune"
 alias gdt="git difftool"
 alias gmt="git mergetool"
 
