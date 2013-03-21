@@ -59,3 +59,7 @@ function history-all { history -E 1 } # 全履歴の一覧を出力する
 
 # ack-grep
 alias a="ack-grep"
+
+autoload bashcompinit
+bashcompinit
+
