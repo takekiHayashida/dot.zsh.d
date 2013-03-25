@@ -13,6 +13,9 @@ setopt auto_cd
 # 間違えたら訂正を出す
 setopt correct
 
+# reload .zshrc
+alias .=". ~/.zshrc"
+
 # キーをemacs風に
 bindkey -e
 
