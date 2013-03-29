@@ -45,4 +45,5 @@ alias gr.p="git remote prune"
 alias gdt="git difftool"
 alias gmt="git mergetool"
 
-source ${ZSH_EXT_BASE}/plugins/git/git-completion.bash
+fpath=($ZSH_EXT_BASE/plugins/git $fpath)
+
