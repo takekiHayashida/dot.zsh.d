@@ -64,6 +64,3 @@ alias aa="ack-grep -a"
 # homesick
 alias hp="homesick pull"
 alias hpa="homesick pull --all"
-
-# homesick pull automatically
-homesick pull --all
