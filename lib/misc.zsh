@@ -39,7 +39,16 @@ export MANPATH=/usr/local/tmux/man:`manpath -q`
 export LESS='-R'
 
 # alias 設定
-alias ls="ls -CF --color"
+case ${OSTYPE} in
+  darwin*)
+    # for Mac
+	alias ls="ls -lFA"
+	;;
+  *)
+    # other
+	alias ls="ls -lFA --color"
+	;;
+esac
 alias findf="find . -type f"
 alias findfg="find . -type f | xargs grep"
 alias ch="chromium-browser"
