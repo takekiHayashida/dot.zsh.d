@@ -4,13 +4,14 @@ colors
 case ${OSTYPE} in
   darwin*)
     # for Mac
-	export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+	export PATH="$(brew --prefix coreutils)/bin:$PATH"
+	eval `gdircolors ~/.dir_colors -b`
 	;;
   *)
     # other
+	eval `dircolors ~/.dir_colors -b`
 	;;
 esac
 
-eval `dircolors ~/.dir_colors -b`
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 

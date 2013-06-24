@@ -42,7 +42,7 @@ export LESS='-R'
 case ${OSTYPE} in
   darwin*)
     # for Mac
-	alias ls="ls -lFA"
+	alias ls="gls -lFA"
 	;;
   *)
     # other
