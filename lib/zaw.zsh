@@ -4,5 +4,6 @@ bindkey '^r' zaw-history
 bindkey '^gc' zaw-cdr
 bindkey '^ga' zaw-ack
 bindkey '^gs' zaw-git-status
+bindkey '^gf' zaw-git-files
 
 export ZAW_EDITOR='emacsclient -n'
