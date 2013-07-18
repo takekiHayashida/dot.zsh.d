@@ -1,5 +1,5 @@
 bindkey '^gz' zaw
-bindkey '^g^b' zaw-git-recent-all-branches
+bindkey '^gb' zaw-git-recent-all-branches
 bindkey '^r' zaw-history
 bindkey '^gc' zaw-cdr
 bindkey '^ga' zaw-ack
