@@ -1,5 +1,5 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
 
 # auto rehash
 function gem(){
