@@ -42,11 +42,11 @@ export LESS='-R'
 case ${OSTYPE} in
   darwin*)
     # for Mac
-	alias ls="gls -lFA --color"
+	alias ls="gls -lFAh --color"
 	;;
   *)
     # other
-	alias ls="ls -lFA --color"
+	alias ls="ls -lFAh --color"
 	;;
 esac
 alias findf="find . -type f"
