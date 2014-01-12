@@ -30,15 +30,15 @@ function _update_vcs_info_msg() {
   # psvar[5] = unpushed status
 
   if [[ -n "$vcs_info_msg_0_" ]]; then
-    psvar[1]=$(echo "$vcs_info_msg_0_" | sed -e 's/●//g' | sed -e 's/▲//g')
-    if [ "$(_has_string $vcs_info_msg_0_, '●')" = "OK" ]; then
-       psvar[2]="●"
-    fi
+    #psvar[1]=$(echo "$vcs_info_msg_0_" | sed -e 's/●//g' | sed -e 's/▲//g')
+    #if [ "$(_has_string $vcs_info_msg_0_, '●')" = "OK" ]; then
+    #   psvar[2]="●"
+    #fi
 
-    if [ "$(_has_string $vcs_info_msg_0_, '▲')" = "OK" ]; then
-       psvar[3]="●"
-    fi
-    psvar[4]=$(_git_untracked)
+    #if [ "$(_has_string $vcs_info_msg_0_, '▲')" = "OK" ]; then
+    #   psvar[3]="●"
+    #fi
+    #psvar[4]=$(_git_untracked)
     psvar[5]=$(_git_not_pushed)
   fi
 }
