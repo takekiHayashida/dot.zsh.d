@@ -80,3 +80,6 @@ add-zsh-hook chpwd chpwd_recent_dirs
 zstyle ':chpwd:*' recent-dirs-max 5000
 zstyle ':chpwd:*' recent-dirs-default yes
 zstyle ':completion:*' recent-dirs-insert both
+
+# cask
+export PATH="$HOME/.cask/bin:$PATH"
