@@ -9,6 +9,8 @@ for plugin ($ZSH_EXT_BASE/plugins/*) {
   source $ZSH_EXT_BASE/plugins/$plugin_name/$plugin_name.plugin.zsh
 }
 
+/usr/bin/gnome-keyring-daemon --start --components=pkcs11
+
 autoload -U compinit
 compinit -i
 
