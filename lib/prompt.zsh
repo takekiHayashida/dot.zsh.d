@@ -114,7 +114,7 @@ RPROMPT_FG_COLOR=white
 # modify    red ●
 # staged   green ●
 # unpush   red ▲
-VC_BRANCH_FG=blue
+VC_BRANCH_FG=cyan
 VC_STAGED_FG=green
 VC_UNSTAGED_FG=red
 VC_UNTRACKED_FG=yellow
