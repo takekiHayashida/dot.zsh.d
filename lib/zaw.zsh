@@ -7,5 +7,6 @@ bindkey '^gs' zaw-git-status
 bindkey '^gf' zaw-git-files
 bindkey '^gl' zaw-git-log
 bindkey '^gp' zaw-process
+bindkey '^gd' zaw-docker-images
 
 export ZAW_EDITOR='emacsclient -n'
