@@ -83,3 +83,6 @@ zstyle ':completion:*' recent-dirs-insert both
 
 # cask
 export PATH="$HOME/.cask/bin:$PATH"
+
+# prevent sleep
+xset s off
