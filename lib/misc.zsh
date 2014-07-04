@@ -85,4 +85,5 @@ zstyle ':completion:*' recent-dirs-insert both
 export PATH="$HOME/.cask/bin:$PATH"
 
 # prevent sleep
+xfce4-power-manager
 xset s off
