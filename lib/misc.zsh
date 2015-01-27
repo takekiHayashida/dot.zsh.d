@@ -87,3 +87,6 @@ export PATH="$HOME/.cask/bin:$PATH"
 # prevent sleep
 xfce4-power-manager
 xset s off
+
+# bin
+export PATH=~/.bin:$PATH
