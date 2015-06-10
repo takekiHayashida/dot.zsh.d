@@ -3,6 +3,7 @@
 
 #export PATH=${RUBY_HOME}/bin:$PATH
 #export MANPATH=${RUBY_HOME}/share/man:`manpath -q`
+export RUBYGEMS_GEMDEPS=-
 
 alias rbctags="ctags --regex-ruby='/^[ \t]*([A-Z_][A-Z0-9_]*)[ \t]*=/\1/C,constant/'"
 
